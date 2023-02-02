@@ -295,6 +295,7 @@ aside .sidebar {
 aside {
     position: fixed;
     left: -100%;
+    top: 0;
     background: var(--color-white);
     width: 18rem;
     height: 100vh;
