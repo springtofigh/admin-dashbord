@@ -14,6 +14,30 @@
 </head>
 <body>
     <div class="container">
+        <!-- TOP MENU -->
+        <nav class="nav">
+            <div class="top">
+            <button id="menu-btn"><i class="ri-menu-2-line"></i></button>
+
+            <label class="theme-toggler switch">
+                <input type="checkbox" id="check" onclick="changeStatus()">
+                <span class="slider round">
+                    <i class="ri-moon-clear-fill active"></i>
+                </span>
+            </label>
+
+        <div class="profile">
+            <div class="info">
+                <p>Hey, <b>Spring</b></p>
+                <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+                <img src="./assets/images/girl-image-in-circle.png" alt="profile">
+            </div>
+        </div>
+        </div>
+        </nav>
+
         <aside>
             <div class="top">
                 <div class="logo">
@@ -69,10 +93,10 @@
                 </a>
             </div>
         </aside>
+
         <!-- MAIN PART -->
         <main>
             <h1>Your dashbord</h1>
-
             <div class="date">
                 <input type="date">
             </div>
@@ -216,26 +240,6 @@
         </main>
 
         <div class="right">
-            <div class="top">
-                <button id="menu-btn"><i class="ri-menu-2-line"></i></button>
-
-                <label class="theme-toggler switch">
-                    <input type="checkbox" id="check" onclick="changeStatus()">
-                    <span class="slider round">
-                        <i class="ri-moon-clear-fill active"></i>
-                    </span>
-                </label>
-
-            <div class="profile">
-                <div class="info">
-                    <p>Hey, <b>Spring</b></p>
-                    <small class="text-muted">Admin</small>
-                </div>
-                <div class="profile-photo">
-                    <img src="./assets/images/girl-image-in-circle.png" alt="profile">
-                </div>
-            </div>
-            </div>
             <!-- UPDATES -->
     <div class="recent-updates">
         <h2>Recent Updates</h2>
