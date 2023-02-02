@@ -564,7 +564,6 @@ main table tr td:last-child {
 /* ================== UPDATES ================== */
 .right {
     margin-top: 1.4rem;
-    /* padding-inline: 1rem; */
 }
 
 .right .recent-updates {
@@ -592,6 +591,10 @@ main table tr td:last-child {
     grid-template-columns: 2.6rem auto;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.recent-updates .updates .update:last-child {
+    margin-bottom: 0;
 }
 
 /*  ================== SALES ANALYSTICTS  ================== */
