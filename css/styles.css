@@ -299,6 +299,8 @@ aside {
     background: var(--color-white);
     width: 18rem;
     height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding-right: var(--card-padding);
     display: none;
     box-shadow: 1rem 3rem 4rem var(--color-light);
